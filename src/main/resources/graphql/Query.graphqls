@@ -1,0 +1,6 @@
+type Query{
+    getUserByEmail(email:String) : UserDTO
+    getUserByDateNaissance(date:String) : [UserDTO]
+}
+
+
